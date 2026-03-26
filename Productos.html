@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<title>Productos</title>
+
+<style>
+body { margin:0; font-family:Arial; background:#f4f4f4; }
+
+header {
+background: linear-gradient(to right, #70e000, #38b000);
+color:white; padding:20px; text-align:center;
+}
+
+nav { background:#38b000; padding:12px; text-align:center; }
+
+nav a { color:white; margin:15px; text-decoration:none; font-weight:bold; }
+
+.productos {
+display:grid;
+grid-template-columns:repeat(2,1fr);
+gap:30px;
+max-width:900px;
+margin:auto;
+padding:20px;
+}
+
+.producto {
+background:white;
+padding:20px;
+border-radius:15px;
+box-shadow:0 4px 10px rgba(0,0,0,0.2);
+text-align:center;
+}
+
+.producto img { width:100%; border-radius:10px; }
+
+.boton {
+background:#70e000;
+padding:10px;
+border-radius:10px;
+text-decoration:none;
+color:black;
+display:inline-block;
+margin-top:10px;
+}
+
+footer {
+background: linear-gradient(to right, #70e000, #38b000);
+color:white; text-align:center; padding:15px;
+}
+</style>
+</head>
+
+<body>
+
+<header><h1>Productos 🌿</h1></header>
+
+<nav>
+<a href="index.html">Inicio</a>
+<a href="productos.html">Productos</a>
+<a href="video.html">Video</a>
+<a href="contacto.html">Contacto</a>
+</nav>
+
+<div class="productos">
+
+<div class="producto"><img src="img1.jpg" height="650"><h3>Cepillo de Bambu</h3><a class="boton">Comprar</a></div>
+<div class="producto"><img src="img2.jpg" height="650"><h3>Shampoo de Cabello</h3><a class="boton">Comprar</a></div>
+<div class="producto"><img src="img3.jpg" height="650"><h3>Iciensos</h3><a class="boton">Comprar</a></div>
+<div class="producto"><img src="img4.jpg" height="650"><h3>Shampoo para Mascota</h3><a class="boton">Comprar</a></div>
+<div class="producto"><img src="img5.jpg" height="650"><h3>Dentrifico Solido</h3><a class="boton">Comprar</a></div>
+<div class="producto"><img src="img6.jpg" height="650"><h3>Desodorante</h3><a class="boton">Comprar</a></div>
+
+</div>
+
+<footer>
+<p>© 2026 QOA | Proyecto escolar</p>
+<a href="https://www.tiktok.com/@qoa_greenline?_r=1&_t=ZS-9507SZEmXnm">QOA_greenline</a>
+</footer>
+
+</body>
+</html>
